@@ -1,0 +1,26 @@
+<VBBSolution name="WebServer" perspective="VBB - Rapid Prototyping System">
+	<LAYOUT currentView="1" >
+	<VIEW id="1">
+		<PANE>[WebServer]BreadboardSheet.VBB</PANE>
+	</VIEW>
+	<VIEW id="2">
+		<PANE>[WebServer]BreadboardSheet.VBB</PANE>
+		<PANE>[WebServer]Source0.SRC</PANE>
+	</VIEW>
+	<VIEW id="3">
+		<PANE>[WebServer]BreadboardSheet.VBB</PANE>
+		<PANE>[WebServer]Source0.SRC</PANE>
+	</VIEW>
+	</LAYOUT>
+<PROJECTS>
+<PROJECT>WebServer.SIM</PROJECT>
+<REFERENCES>
+<VBB-EXCLUDES>
+</VBB-EXCLUDES>
+<USER-INCLUDES>
+</USER-INCLUDES>
+<WEB-INCLUDES>
+</WEB-INCLUDES>
+</REFERENCES>
+</PROJECTS>
+</VBBSolution>
