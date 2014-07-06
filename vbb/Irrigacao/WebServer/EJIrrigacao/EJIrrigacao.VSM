@@ -1,0 +1,26 @@
+<VBBSolution name="EJIrrigacao" perspective="VBB - Rapid Prototyping System">
+	<LAYOUT currentView="1" >
+	<VIEW id="1">
+		<PANE>[EJIrrigacao]BreadboardSheet.VBB</PANE>
+	</VIEW>
+	<VIEW id="2">
+		<PANE>[EJIrrigacao]BreadboardSheet.VBB</PANE>
+		<PANE>[EJIrrigacao]Source0.SRC</PANE>
+	</VIEW>
+	<VIEW id="3">
+		<PANE>[EJIrrigacao]BreadboardSheet.VBB</PANE>
+		<PANE>[EJIrrigacao]Source0.SRC</PANE>
+	</VIEW>
+	</LAYOUT>
+<PROJECTS>
+<PROJECT>EJIrrigacao.SIM</PROJECT>
+<REFERENCES>
+<VBB-EXCLUDES>
+</VBB-EXCLUDES>
+<USER-INCLUDES>
+</USER-INCLUDES>
+<WEB-INCLUDES>
+</WEB-INCLUDES>
+</REFERENCES>
+</PROJECTS>
+</VBBSolution>

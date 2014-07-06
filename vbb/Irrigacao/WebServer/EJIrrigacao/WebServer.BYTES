@@ -1,0 +1,361 @@
+1)CONSTANT_Utf8[1]("WebServer")
+2)CONSTANT_Class[7](name_index = 1)
+3)CONSTANT_Utf8[1]("com/muvium/compatibility/arduino/Arduino")
+4)CONSTANT_Class[7](name_index = 3)
+5)CONSTANT_Utf8[1]("mac")
+6)CONSTANT_Utf8[1]("[B")
+7)CONSTANT_Utf8[1]("ip")
+8)CONSTANT_Utf8[1]("server")
+9)CONSTANT_Utf8[1]("Lcom/muvium/compatibility/arduino/Server;")
+10)CONSTANT_Utf8[1]("setup")
+11)CONSTANT_Utf8[1]("()V")
+12)CONSTANT_Utf8[1]("Code")
+13)CONSTANT_Utf8[1]("LineNumberTable")
+14)CONSTANT_Utf8[1]("LocalVariableTable")
+15)CONSTANT_Utf8[1]("createServer")
+16)CONSTANT_Utf8[1]("(I)Lcom/muvium/compatibility/arduino/Server;")
+17)CONSTANT_NameAndType[12](name_index = 15, signature_index = 16)
+18)CONSTANT_Methodref[10](class_index = 2, name_and_type_index = 17)
+19)CONSTANT_NameAndType[12](name_index = 8, signature_index = 9)
+20)CONSTANT_Fieldref[9](class_index = 2, name_and_type_index = 19)
+21)CONSTANT_Utf8[1]("Ethernet")
+22)CONSTANT_Utf8[1]("Lcom/muvium/compatibility/arduino/Ethernet;")
+23)CONSTANT_NameAndType[12](name_index = 21, signature_index = 22)
+24)CONSTANT_Fieldref[9](class_index = 2, name_and_type_index = 23)
+25)CONSTANT_NameAndType[12](name_index = 5, signature_index = 6)
+26)CONSTANT_Fieldref[9](class_index = 2, name_and_type_index = 25)
+27)CONSTANT_NameAndType[12](name_index = 7, signature_index = 6)
+28)CONSTANT_Fieldref[9](class_index = 2, name_and_type_index = 27)
+29)CONSTANT_Utf8[1]("begin")
+30)CONSTANT_Utf8[1]("([B[B)V")
+31)CONSTANT_NameAndType[12](name_index = 29, signature_index = 30)
+32)CONSTANT_Utf8[1]("com/muvium/compatibility/arduino/Ethernet")
+33)CONSTANT_Class[7](name_index = 32)
+34)CONSTANT_Methodref[10](class_index = 33, name_and_type_index = 31)
+35)CONSTANT_NameAndType[12](name_index = 29, signature_index = 11)
+36)CONSTANT_Utf8[1]("com/muvium/compatibility/arduino/Server")
+37)CONSTANT_Class[7](name_index = 36)
+38)CONSTANT_Methodref[10](class_index = 37, name_and_type_index = 35)
+39)CONSTANT_Utf8[1]("this")
+40)CONSTANT_Utf8[1]("LWebServer;")
+41)CONSTANT_Utf8[1]("loop")
+42)CONSTANT_Utf8[1]("webServer")
+43)CONSTANT_NameAndType[12](name_index = 42, signature_index = 11)
+44)CONSTANT_Methodref[10](class_index = 2, name_and_type_index = 43)
+45)CONSTANT_Utf8[1]("verificaToken")
+46)CONSTANT_Utf8[1]("(Ljava/lang/String;)Ljava/lang/String;")
+47)CONSTANT_Utf8[1]("c")
+48)CONSTANT_Utf8[1]("Ljava/lang/String;")
+49)CONSTANT_Utf8[1]("available")
+50)CONSTANT_Utf8[1]("()Lcom/muvium/compatibility/arduino/Client;")
+51)CONSTANT_NameAndType[12](name_index = 49, signature_index = 50)
+52)CONSTANT_Methodref[10](class_index = 37, name_and_type_index = 51)
+53)CONSTANT_Utf8[1]("iff")
+54)CONSTANT_Utf8[1]("(Ljava/lang/Object;)Z")
+55)CONSTANT_NameAndType[12](name_index = 53, signature_index = 54)
+56)CONSTANT_Methodref[10](class_index = 2, name_and_type_index = 55)
+57)CONSTANT_Utf8[1]("()I")
+58)CONSTANT_NameAndType[12](name_index = 49, signature_index = 57)
+59)CONSTANT_Utf8[1]("com/muvium/compatibility/arduino/Client")
+60)CONSTANT_Class[7](name_index = 59)
+61)CONSTANT_Methodref[10](class_index = 60, name_and_type_index = 58)
+62)CONSTANT_Utf8[1]("(I)Z")
+63)CONSTANT_NameAndType[12](name_index = 53, signature_index = 62)
+64)CONSTANT_Methodref[10](class_index = 2, name_and_type_index = 63)
+65)CONSTANT_Utf8[1]("read")
+66)CONSTANT_NameAndType[12](name_index = 65, signature_index = 57)
+67)CONSTANT_Methodref[10](class_index = 60, name_and_type_index = 66)
+68)CONSTANT_Utf8[1]("Serial")
+69)CONSTANT_Utf8[1]("Lcom/muvium/compatibility/arduino/Serial;")
+70)CONSTANT_NameAndType[12](name_index = 68, signature_index = 69)
+71)CONSTANT_Fieldref[9](class_index = 2, name_and_type_index = 70)
+72)CONSTANT_Utf8[1]("print")
+73)CONSTANT_Utf8[1]("(C)V")
+74)CONSTANT_NameAndType[12](name_index = 72, signature_index = 73)
+75)CONSTANT_Utf8[1]("com/muvium/compatibility/arduino/Serial")
+76)CONSTANT_Class[7](name_index = 75)
+77)CONSTANT_Methodref[10](class_index = 76, name_and_type_index = 74)
+78)CONSTANT_Utf8[1]("(Z)Z")
+79)CONSTANT_NameAndType[12](name_index = 53, signature_index = 78)
+80)CONSTANT_Methodref[10](class_index = 2, name_and_type_index = 79)
+81)CONSTANT_Utf8[1]("HTTP/1.1 200 OK")
+82)CONSTANT_String[8](string_index = 81)
+83)CONSTANT_Utf8[1]("println")
+84)CONSTANT_Utf8[1]("(Ljava/lang/String;)V")
+85)CONSTANT_NameAndType[12](name_index = 83, signature_index = 84)
+86)CONSTANT_Methodref[10](class_index = 60, name_and_type_index = 85)
+87)CONSTANT_Utf8[1]("Content-Type: text/html")
+88)CONSTANT_String[8](string_index = 87)
+89)CONSTANT_NameAndType[12](name_index = 83, signature_index = 11)
+90)CONSTANT_Methodref[10](class_index = 60, name_and_type_index = 89)
+91)CONSTANT_Utf8[1]("ENCONTROU /")
+92)CONSTANT_String[8](string_index = 91)
+93)CONSTANT_Utf8[1]("CLIENTE CONECTADO")
+94)CONSTANT_String[8](string_index = 93)
+95)CONSTANT_Utf8[1]("C")
+96)CONSTANT_Utf8[1]("connected")
+97)CONSTANT_Utf8[1]("()Z")
+98)CONSTANT_NameAndType[12](name_index = 96, signature_index = 97)
+99)CONSTANT_Methodref[10](class_index = 60, name_and_type_index = 98)
+100)CONSTANT_Utf8[1]("delay")
+101)CONSTANT_Utf8[1]("(J)V")
+102)CONSTANT_NameAndType[12](name_index = 100, signature_index = 101)
+103)CONSTANT_Methodref[10](class_index = 2, name_and_type_index = 102)
+104)CONSTANT_Utf8[1]("stop")
+105)CONSTANT_NameAndType[12](name_index = 104, signature_index = 11)
+106)CONSTANT_Methodref[10](class_index = 60, name_and_type_index = 105)
+107)CONSTANT_Utf8[1]("current_line_is_blank")
+108)CONSTANT_Utf8[1]("Z")
+109)CONSTANT_Utf8[1]("client")
+110)CONSTANT_Utf8[1]("Lcom/muvium/compatibility/arduino/Client;")
+111)CONSTANT_Utf8[1]("main")
+112)CONSTANT_Utf8[1]("([Ljava/lang/String;)V")
+113)CONSTANT_Utf8[1]("<init>")
+114)CONSTANT_NameAndType[12](name_index = 113, signature_index = 11)
+115)CONSTANT_Methodref[10](class_index = 2, name_and_type_index = 114)
+116)CONSTANT_Utf8[1]("run")
+117)CONSTANT_NameAndType[12](name_index = 116, signature_index = 11)
+118)CONSTANT_Methodref[10](class_index = 2, name_and_type_index = 117)
+119)CONSTANT_Utf8[1]("args")
+120)CONSTANT_Utf8[1]("[Ljava/lang/String;")
+121)CONSTANT_Utf8[1]("Synthetic")
+122)CONSTANT_Methodref[10](class_index = 4, name_and_type_index = 114)
+123)CONSTANT_NameAndType[12](name_index = 39, signature_index = 11)
+124)CONSTANT_Methodref[10](class_index = 2, name_and_type_index = 123)
+125)CONSTANT_Utf8[1]("SourceFile")
+126)CONSTANT_Utf8[1]("WebServer.java")
+
+public void setup()
+Code(max_stack = 3, max_locals = 1, code_length = 33)
+0:    aload_0
+1:    aload_0
+2:    bipush		81
+4:    invokevirtual	WebServer.createServer (I)Lcom/muvium/compatibility/arduino/Server; (18)
+7:    putfield		WebServer.server Lcom/muvium/compatibility/arduino/Server; (20)
+10:   aload_0
+11:   getfield		WebServer.Ethernet Lcom/muvium/compatibility/arduino/Ethernet; (24)
+14:   aload_0
+15:   getfield		WebServer.mac [B (26)
+18:   aload_0
+19:   getfield		WebServer.ip [B (28)
+22:   invokevirtual	com.muvium.compatibility.arduino.Ethernet.begin ([B[B)V (34)
+25:   aload_0
+26:   getfield		WebServer.server Lcom/muvium/compatibility/arduino/Server; (20)
+29:   invokevirtual	com.muvium.compatibility.arduino.Server.begin ()V (38)
+32:   return
+
+Attribute(s) = 
+LineNumber(0, 23), LineNumber(10, 25), LineNumber(25, 26), LineNumber(32, 28)
+
+LocalVariable(start_pc = 0, length = 33, index = 0:WebServer this)
+
+public void loop()
+Code(max_stack = 1, max_locals = 1, code_length = 5)
+0:    aload_0
+1:    invokevirtual	WebServer.webServer ()V (44)
+4:    return
+
+Attribute(s) = 
+LineNumber(0, 32), LineNumber(4, 33)
+LocalVariable(start_pc = 0, length = 5, index = 0:WebServer this)
+
+String verificaToken(String)
+Code(max_stack = 1, max_locals = 2, code_length = 2)
+0:    aload_1
+1:    areturn
+
+Attribute(s) = 
+LineNumber(0, 41)
+LocalVariable(start_pc = 0, length = 2, index = 0:WebServer this)
+LocalVariable(start_pc = 0, length = 2, index = 1:String c)
+
+void webServer()
+Code(max_stack = 4, max_locals = 4, code_length = 192)
+0:    aload_0
+1:    getfield		WebServer.server Lcom/muvium/compatibility/arduino/Server; (20)
+4:    invokevirtual	com.muvium.compatibility.arduino.Server.available ()Lcom/muvium/compatibility/arduino/Client; (52)
+7:    astore_1
+8:    aload_0
+9:    aload_1
+10:   invokevirtual	WebServer.iff (Ljava/lang/Object;)Z (56)
+13:   ifeq		#191
+16:   iconst_1
+17:   istore_2
+18:   goto		#171
+21:   aload_0
+22:   aload_1
+23:   invokevirtual	com.muvium.compatibility.arduino.Client.available ()I (61)
+26:   invokevirtual	WebServer.iff (I)Z (64)
+29:   ifeq		#171
+32:   aload_1
+33:   invokevirtual	com.muvium.compatibility.arduino.Client.read ()I (67)
+36:   i2c
+37:   istore_3
+38:   aload_0
+39:   getfield		WebServer.Serial Lcom/muvium/compatibility/arduino/Serial; (71)
+42:   iload_3
+43:   invokevirtual	com.muvium.compatibility.arduino.Serial.print (C)V (77)
+46:   aload_0
+47:   iconst_0
+48:   iload_3
+49:   bipush		47
+51:   if_icmpne		#56
+54:   pop
+55:   iconst_1
+56:   invokevirtual	WebServer.iff (Z)Z (80)
+59:   ifeq		#87
+62:   aload_1
+63:   ldc		"HTTP/1.1 200 OK" (82)
+65:   invokevirtual	com.muvium.compatibility.arduino.Client.println (Ljava/lang/String;)V (86)
+68:   aload_1
+69:   ldc		"Content-Type: text/html" (88)
+71:   invokevirtual	com.muvium.compatibility.arduino.Client.println (Ljava/lang/String;)V (86)
+74:   aload_1
+75:   invokevirtual	com.muvium.compatibility.arduino.Client.println ()V (90)
+78:   aload_1
+79:   ldc		"ENCONTROU /" (92)
+81:   invokevirtual	com.muvium.compatibility.arduino.Client.println (Ljava/lang/String;)V (86)
+84:   goto		#182
+87:   aload_0
+88:   iconst_0
+89:   iload_3
+90:   bipush		10
+92:   if_icmpne		#101
+95:   iload_2
+96:   ifeq		#101
+99:   pop
+100:  iconst_1
+101:  invokevirtual	WebServer.iff (Z)Z (80)
+104:  ifeq		#132
+107:  aload_1
+108:  ldc		"HTTP/1.1 200 OK" (82)
+110:  invokevirtual	com.muvium.compatibility.arduino.Client.println (Ljava/lang/String;)V (86)
+113:  aload_1
+114:  ldc		"Content-Type: text/html" (88)
+116:  invokevirtual	com.muvium.compatibility.arduino.Client.println (Ljava/lang/String;)V (86)
+119:  aload_1
+120:  invokevirtual	com.muvium.compatibility.arduino.Client.println ()V (90)
+123:  aload_1
+124:  ldc		"CLIENTE CONECTADO" (94)
+126:  invokevirtual	com.muvium.compatibility.arduino.Client.println (Ljava/lang/String;)V (86)
+129:  goto		#182
+132:  aload_0
+133:  iconst_0
+134:  iload_3
+135:  bipush		10
+137:  if_icmpne		#142
+140:  pop
+141:  iconst_1
+142:  invokevirtual	WebServer.iff (Z)Z (80)
+145:  ifeq		#153
+148:  iconst_1
+149:  istore_2
+150:  goto		#171
+153:  aload_0
+154:  iconst_0
+155:  iload_3
+156:  bipush		13
+158:  if_icmpeq		#163
+161:  pop
+162:  iconst_1
+163:  invokevirtual	WebServer.iff (Z)Z (80)
+166:  ifeq		#171
+169:  iconst_0
+170:  istore_2
+171:  aload_0
+172:  aload_1
+173:  invokevirtual	com.muvium.compatibility.arduino.Client.connected ()Z (99)
+176:  invokevirtual	WebServer.iff (Z)Z (80)
+179:  ifne		#21
+182:  aload_0
+183:  lconst_1
+184:  invokevirtual	WebServer.delay (J)V (103)
+187:  aload_1
+188:  invokevirtual	com.muvium.compatibility.arduino.Client.stop ()V (106)
+191:  return
+
+Attribute(s) = 
+LineNumber(0, 46), LineNumber(8, 47), LineNumber(16, 51), LineNumber(18, 52), 
+LineNumber(21, 54), LineNumber(32, 55), LineNumber(38, 59), LineNumber(46, 60), 
+LineNumber(62, 61), LineNumber(68, 62), LineNumber(74, 63), LineNumber(78, 64), 
+LineNumber(84, 65), LineNumber(87, 68), LineNumber(107, 70), LineNumber(113, 71), 
+LineNumber(119, 72), LineNumber(123, 73), LineNumber(129, 77), LineNumber(132, 79), 
+LineNumber(148, 81), LineNumber(153, 82), LineNumber(169, 84), LineNumber(171, 52), 
+LineNumber(182, 89), LineNumber(187, 90), LineNumber(191, 93)
+LocalVariable(start_pc = 32, length = 139, index = 3:char c)
+LocalVariable(start_pc = 16, length = 175, index = 2:boolean current_line_is_blank)
+LocalVariable(start_pc = 0, length = 192, index = 1:com.muvium.compatibility.arduino.Client client)
+LocalVariable(start_pc = 0, length = 192, index = 0:WebServer this)
+
+public static void main(String[])
+Code(max_stack = 2, max_locals = 1, code_length = 11)
+0:    new		<WebServer> (2)
+3:    dup
+4:    invokespecial	WebServer.<init> ()V (115)
+7:    invokevirtual	WebServer.run ()V (118)
+10:   return
+
+Attribute(s) = 
+LineNumber(0, 96), LineNumber(10, 96)
+LocalVariable(start_pc = 0, length = 11, index = 0:String[] args)
+
+private final void this() <Synthetic>
+Code(max_stack = 5, max_locals = 1, code_length = 56)
+0:    aload_0
+1:    bipush		6
+3:    newarray		<byte>
+5:    dup
+6:    iconst_0
+7:    bipush		-34
+9:    bastore
+10:   dup
+11:   iconst_1
+12:   bipush		-83
+14:   bastore
+15:   dup
+16:   iconst_2
+17:   bipush		-66
+19:   bastore
+20:   dup
+21:   iconst_3
+22:   bipush		-17
+24:   bastore
+25:   dup
+26:   iconst_4
+27:   bipush		-2
+29:   bastore
+30:   dup
+31:   iconst_5
+32:   bipush		-19
+34:   bastore
+35:   putfield		WebServer.mac [B (26)
+38:   aload_0
+39:   iconst_4
+40:   newarray		<byte>
+42:   dup
+43:   iconst_0
+44:   bipush		10
+46:   bastore
+47:   dup
+48:   iconst_3
+49:   bipush		-79
+51:   bastore
+52:   putfield		WebServer.ip [B (28)
+55:   return
+
+Attribute(s) = 
+LineNumber(0, 15), LineNumber(38, 16)
+LocalVariable(start_pc = 0, length = 56, index = 0:WebServer this)
+
+void <init>()
+Code(max_stack = 1, max_locals = 1, code_length = 9)
+0:    aload_0
+1:    invokespecial	com.muvium.compatibility.arduino.Arduino.<init> ()V (122)
+4:    aload_0
+5:    invokespecial	WebServer.this ()V (124)
+8:    return
+
+Attribute(s) = 
+LineNumber(0, 3), LineNumber(8, 3)
+LocalVariable(start_pc = 0, length = 9, index = 0:WebServer this)
+
